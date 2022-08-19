@@ -12,7 +12,7 @@ OC			:=	${CROSS_COMPILE}objcopy
 OD			:=	${CROSS_COMPILE}objdump
 NM			:=	${CROSS_COMPILE}nm
 PP			:=	${CROSS_COMPILE}gcc -E
-
+#测试提交
 BUILD_DIR := $(PWD)/build
 LIB_DIR := -L$(PWD)/src/lib
 MAKE_DEP = -Wp,-MD,$(DEP) -MT $$@ -MP
